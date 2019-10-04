@@ -1,7 +1,7 @@
 const copy = {
     English: {
         menu: [
-            {text: 'models', link: '#',id:1},
+            {text: 'models', link: '/d-boat-test',id:1},
             {text: 'news',link:'/news',id:2},
             {text: 'Find My Dealer',link:'/retailers', id:3}
         ],

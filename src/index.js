@@ -19,7 +19,7 @@ function App() {
         <Router>
             <Nav />
             <Switch>
-                <Route exact path='/'>
+                <Route exact path='/d-boat-test'>
                     <IntroPage />
                     <MainpageText texts={ copy.English.mainpageText } />
                     <Slider slides={ copy.English.slider } autoSlideTime={ 4000 } />
