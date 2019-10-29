@@ -21,7 +21,7 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route exact path='/'>
+                <Route exact path='/d-boat-test'>
                     <Nav color='black'/>
                     <IntroPage />
                     <MainpageText texts={ copy.English.mainpageText } />
