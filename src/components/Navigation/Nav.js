@@ -29,7 +29,7 @@ class Nav extends Component {
         return (
             <nav className={this.state.isTop?`nav scroll-${this.props.color}`:'nav'}>
                 <div className='wrapper nav-wrapper'>
-                    <a href="/" className={this.state.isTop?`nav-logo logo-${this.props.color}`:'nav-logo'}/>
+                    <a href="/d-boat-test" className={this.state.isTop?`nav-logo logo-${this.props.color}`:'nav-logo'}/>
                     <Burger list={copy.English.menu}/>
                     <NavMenu top={this.state.isTop} color={this.props.color}/>
                 </div>
